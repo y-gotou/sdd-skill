@@ -1,0 +1,11 @@
+{
+  "name": "sdd-skill",
+  "owner": { "name": "y-gotou" },
+  "plugins": [
+    {
+      "name": "sdd",
+      "source": "./",
+      "description": "承認ゲート付きのタスク管理(SDD)スキル"
+    }
+  ]
+}

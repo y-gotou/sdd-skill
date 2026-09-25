@@ -1,0 +1,7 @@
+{
+  "name": "sdd",
+  "description": "承認ゲート付きのタスク管理(SDD)スキル",
+  "author": { "name": "y-gotou" },
+  "repository": "https://github.com/y-gotou/sdd-skill",
+  "license": "MIT"
+}
