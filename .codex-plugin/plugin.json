@@ -1,0 +1,21 @@
+{
+  "name": "sdd",
+  "version": "0.1.0",
+  "description": "承認ゲート付きのタスク管理(SDD)スキル",
+  "author": {
+    "name": "y-gotou",
+    "url": "https://github.com/y-gotou"
+  },
+  "repository": "https://github.com/y-gotou/sdd-skill",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SDD タスク管理",
+    "shortDescription": "承認ゲート付きで開発タスクを管理",
+    "longDescription": "要件定義、実装計画、進捗、完了判定を docs/tasks/ の文書で管理します。",
+    "developerName": "y-gotou",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "defaultPrompt": ["この作業を SDD のタスクとして起票してください。"]
+  }
+}

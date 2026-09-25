@@ -37,7 +37,18 @@ ln -s "$PWD/sdd-skill/skills/sdd" ~/.claude/skills/sdd
 
 呼び出し名は `/sdd` です。シンボリックリンクの代わりに `skills/sdd` をコピーしても動作します。
 
-### Codex
+### Codex(プラグイン)
+
+```sh
+codex plugin marketplace add y-gotou/sdd-skill
+codex plugin add sdd@sdd-skill
+```
+
+Codex アプリではプラグイン一覧から `SDD タスク管理` をインストールできます。既存の Claude Code 用プラグインと同じ `skills/sdd` を使用します。
+
+ワークスペース全体に配布する場合は、管理者が「Workspace settings > Plugins > Add > Import marketplace」で Source に `https://github.com/y-gotou/sdd-skill` を指定します。Path は空欄にし、インポート後に対象ロールの Installation policy を設定してください。
+
+### Codex(スキルとして直接配置)
 
 ```sh
 ln -s "$PWD/sdd-skill/skills/sdd" ~/.codex/skills/sdd

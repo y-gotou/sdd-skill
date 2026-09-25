@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sdd",
+  "version": "0.1.0",
+  "description": "承認ゲート付きのタスク管理(SDD)スキル",
+  "author": {
+    "name": "y-gotou",
+    "url": "https://github.com/y-gotou"
+  },
+  "repository": "https://github.com/y-gotou/sdd-skill",
+  "license": "MIT"
+}
